@@ -7,7 +7,7 @@ public class Application {
         AbstractPresentation presentation = null;
 
         presentation = 
-            new WebPresentation(
+            new WindowPresentation(
                 new BusinessLogic(
                     new MySQLDatabase()
                 )
