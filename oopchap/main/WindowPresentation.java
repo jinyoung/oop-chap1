@@ -7,12 +7,6 @@ public class WindowPresentation extends AbstractPresentation{
 
     String serverUrl;
 
-    WindowPresentation(AbstractBusinessLogic businessLogic) {
-        super(businessLogic);
-        //TODO Auto-generated constructor stub
-    }
-
-
     @Override
     public void doPresentation() {
 

@@ -3,9 +3,8 @@ package oopchap.main;
 public abstract class AbstractBusinessLogic {
 
     AbstractDatabase database;
-
-    AbstractBusinessLogic(AbstractDatabase db){
-        this.database = db;
+    public void setDatabase(AbstractDatabase database) {
+        this.database = database;
     }
 
     abstract public boolean doBusinessLogic();

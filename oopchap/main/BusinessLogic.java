@@ -2,9 +2,6 @@ package oopchap.main;
 
 public class BusinessLogic extends AbstractBusinessLogic{
 
-    BusinessLogic(AbstractDatabase db) {
-        super(db);
-    }
 
     public boolean doBusinessLogic() {
 
@@ -20,5 +17,7 @@ public class BusinessLogic extends AbstractBusinessLogic{
         return (address.name.equals(address2.name) && address.phoneNumber.equals(address2.phoneNumber));
 
     }
+
+
     
 }

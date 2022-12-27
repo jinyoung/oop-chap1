@@ -4,20 +4,9 @@ public class WebPresentation extends AbstractPresentation{
 
     String serverUrl;
 
-    WebPresentation(AbstractBusinessLogic businessLogic) {
-        super(businessLogic);
-        //TODO Auto-generated constructor stub
-    }
-    
-
-
-
     public void runServer(){
         System.out.println("server has been started");
     }
-
-
-
 
     @Override
     public void doPresentation() {
